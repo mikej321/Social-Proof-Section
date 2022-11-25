@@ -41,7 +41,7 @@ h1 {
 
 body > p:first-of-type {
   text-align: center;
-  line-height: 1.4rem;
+  line-height: 1.5rem;
   font-size: 1.1rem;
   color: var(--very-dark-magenta);
   margin-bottom: 3.6rem;
@@ -79,7 +79,7 @@ body > p:first-of-type {
 .card {
   margin-bottom: 1rem;
   background-color: var(--very-dark-magenta);
-  padding: 1.4rem;
+  padding: 2rem 2.1rem 1rem 2.1rem;
   color: var(--white);
   border-radius: 7px;
 }
@@ -111,5 +111,7 @@ body > p:first-of-type {
 }
 
 .card > p {
-  line-height: 1.4rem;
+  line-height: 1.3rem;
+  text-indent: 0.2rem;
+  
 }
