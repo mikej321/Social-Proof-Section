@@ -35,12 +35,16 @@ h1 {
   color: var(--very-dark-magenta);
   font-size: 2.5rem;
   font-weight: 700;
+  max-width: 27rem;
   text-align: center;
   line-height: 2rem;
 }
 
 .grid-container {
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .grid-container > p:first-of-type {
@@ -48,6 +52,7 @@ h1 {
   line-height: 1.5rem;
   font-size: 1.1rem;
   color: var(--very-dark-magenta);
+  max-width: 20rem;
   margin-bottom: 3.6rem;
 }
 
